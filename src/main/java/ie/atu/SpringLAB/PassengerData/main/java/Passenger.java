@@ -1,4 +1,4 @@
-package ie.atu.SpringLAB.PassengerData.main.java.Week6;
+package ie.atu.SpringLAB.PassengerData.main.java;
 /*
 Name: Patrick Hession
 ID Number: G00394619

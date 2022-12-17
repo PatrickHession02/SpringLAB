@@ -1,10 +1,14 @@
-@RequestMapping(path="api/passenger")
-@GetMapping
-List<Passenger> myPassengers = List.of(
-        new Passenger("Mr", "Paul", "123", 2L, 23),
-        new Passenger("Mr", "Paul2", "6723", 2444L, 93),
-        new Passenger("Mr", "Paul3", "144", 5562L, 53));
+package ie.atu.SpringLAB.PassengerData.main.java;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
 
-@GetMapping("/{passengerID}")
-   new Passenger("Mr", "Paul3", "144", 5562L, 53));
+@RestController
+Request
+public class PassengerController {
+}

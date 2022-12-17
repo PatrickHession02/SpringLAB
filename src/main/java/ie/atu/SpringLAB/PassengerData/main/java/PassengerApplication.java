@@ -1,6 +1,5 @@
 package ie.atu.SpringLAB.PassengerData.main.java;
 
-import ie.atu.SpringLAB.PassengerData.main.java.Week6.Passenger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,13 +21,7 @@ public class PassengerApplication {
     @GetMapping
     public List<Passenger> getPassengers()
     {
-        List<Passenger> myPassengers = List.of(
-                new Passenger("Mr","Patrick", 20,123, 2L),
-                new Passenger("Mr","Patrick2", 20,123, 2L),
-                new Passenger("Mr","Patrick3", 20,123, 2L));
-
-                return myPassengers;
-
+        return myService.getPassengers();
     }
     @GetMapping("/{passengerID}")
     public Passenger getPassenger(@PathVariable String passengerID)
