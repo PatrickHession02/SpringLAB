@@ -13,6 +13,8 @@ import java.util.List;
 @SpringBootApplication
 @RequestMapping(path= "api/passenger")
 public class PassengerApplication {
+
+    PassengerService myService
     public static void main(String[] args) {
         SpringApplication.run(PassengerApplication.class, args);}
     @GetMapping
