@@ -1,3 +1,5 @@
+package ie.atu.SpringLAB.PassengerData.main.java;
+
 import ie.atu.SpringLAB.PassengerData.main.java.Week6.Passenger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
