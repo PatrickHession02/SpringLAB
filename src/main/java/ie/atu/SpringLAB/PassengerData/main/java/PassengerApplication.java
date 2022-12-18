@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-
-package ie.atu.SpringLAB.PassengerData.main.java;
-
 import org.springframework.web.bind.annotation.PathVariable;
 
 @RestController
