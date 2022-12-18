@@ -1,4 +1,4 @@
-package ie.atu.SpringLAB.test.java.Week6;
+package ie.atu.SpringLAB.PassengerData.java;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
