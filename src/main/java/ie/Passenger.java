@@ -11,6 +11,11 @@ AIM: Create a class that can be populated with other data from team and test it
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -21,7 +26,9 @@ public class Passenger {
    private  int Age;
     private long Phone;
     private long ID;
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long count; //used for dataase numbering
 
     public Passenger(String Title, String Name, int Age, long ID, long Phone)   //constructor
     {

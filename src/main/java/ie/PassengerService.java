@@ -1,11 +1,14 @@
 package ie;
 
 import ie.Passenger;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.util.List;
+@AllArgsConstructor
 @Service
 
     public class PassengerService{
+    private final PassengerRepo passengerRepo;
     public List <Passenger> getPassengers()
     {
         List<Passenger> myPassengers =List.of(
