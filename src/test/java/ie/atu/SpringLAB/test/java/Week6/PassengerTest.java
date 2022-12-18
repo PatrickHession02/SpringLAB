@@ -1,6 +1,5 @@
 package ie.atu.SpringLAB.test.java.Week6;
 
-import ie.atu.SpringLAB.PassengerData.main.java.Week6.Passenger;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
