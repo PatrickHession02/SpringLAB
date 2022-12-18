@@ -8,7 +8,12 @@ Project: Passenger
 AIM: Create a class that can be populated with other data from team and test it
  */
 
-
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+@Getter
+@Setter
+@NoArgsConstructor
 public class Passenger {
     //variables
     String Title;
