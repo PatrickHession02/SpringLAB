@@ -1,4 +1,4 @@
-FROM openjdk:11
-COPY target/classes/ /tmp
+FROM openjdk:19
+COPY target/ /tmp
 WORKDIR /tmp
-CMD java -jar SpringLAB 0.0.1-SNAPSHOT
+CMD java -jar SpringLAB-0.01-SNAPSHOT.jar
