@@ -16,11 +16,11 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Passenger {
     //variables
-    String Title;
-    String Name;
-    int Age;
-    long Phone;
-    long ID;
+    private String Title;
+    private String Name;
+   private  int Age;
+    private long Phone;
+    private long ID;
 
 
     public Passenger(String Title, String Name, int Age, long ID, long Phone)   //constructor
